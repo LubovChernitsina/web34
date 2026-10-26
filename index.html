@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Любовь Черницина | Фотограф</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-container">
+      <a href="#" class="logo">ЛЮБОВЬ ЧЕРНИЦИНА</a>
+      
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#prices">Цены</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 7</div>
+      <img src="img1.jpg" style="width:100%">
+      <div class="text">Фото 1</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 7</div>
+      <img src="img2.jpg" style="width:100%">
+      <div class="text">Фото 2</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 7</div>
+      <img src="img3.jpg" style="width:100%">
+      <div class="text">Фото 3</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 7</div>
+      <img src="img4.jpg" style="width:100%">
+      <div class="text">Фото 4</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 7</div>
+      <img src="img5.jpg" style="width:100%">
+      <div class="text">Фото 5</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 7</div>
+      <img src="img6.jpg" style="width:100%">
+      <div class="text">Фото 6</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">7 / 7</div>
+      <img src="img7.jpg" style="width:100%">
+      <div class="text">Фото 7</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <!-- Блок с точками и кнопкой (по центру) -->
+  <div class="controls-wrapper">
+    <div style="text-align:center; margin-bottom: 20px;">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+    </div>
+
+    <div class="booking-wrapper">
+      <a href="tel:+79514675054" class="booking-btn">Забронировать дату</a>
+    </div>
+  </div>
+
+  <div class="content-wrapper">
+    <h1 class="main-title">ЛЮБОВЬ ЧЕРНИЦИНА</h1>
+    <h2 class="sub-title">ФОТОГРАФ В ЧЕЛЯБИНСКЕ</h2>
+
+    <p class="description">
+      Профессиональный фотограф с 15-летним опытом работы. Фотосъемка в Москве. Выезд в Санкт-Петербург и другие города России, а также в любую точку мира.
+    </p>
+
+    <div class="button-group">
+      <button type="button" class="ph-btn">Посмотреть фото</button>
+      <button type="button" class="booking-btn">Услуги и цены</button>
+    </div>
+  </div>
+
+  <p class="services-text">
+    Услуги профессионального фотографа, привлечение к съёмкам лучших специалистов. Решение творческих и организационных задач любой сложности. Создание выразительных портретов, рекламных фотографий. Профессиональная работа в студии и на выезде. Разработка креатива на съёмку или проект.
+  </p>
+
+  <!-- Заголовок "Избранные посты" -->
+  <section class="section-header">
+    <h2 class="title-large">ИЗБРАННЫЕ ПОСТЫ</h2>
+    <p class="subtitle">Узнайте больше о моем опыте из постов блога о фотографии и креативном продакшене</p>
+  </section>
+
+  <!-- Блок с карточками -->
+  <section class="ph-portfolio-section">
+    <div class="ph-grid">
+      
+      <!-- Карточка 1: PEPSI -->
+      <article class="ph-card">
+        <div class="ph-card-img-wrapper">
+          <img src="8.jpg" alt="Рекламная кампания Pepsi" class="ph-card-img">
+        </div>
+        <div class="ph-card-body">
+          <span class="ph-tag">Мои съёмки</span>
+          <h3 class="ph-title">Рекламная кампания PEPSI "Твой выбор"</h3>
+          <p class="ph-desc">Материалы для оформления официальных каналов бренда Pepsi в соцсетях и на Youtube, а также проведения промо-акций.</p>
+        </div>
+      </article>
+
+      <!-- Карточка 2: SORMAT -->
+      <article class="ph-card">
+        <div class="ph-card-img-wrapper">
+          <img src="sormat_calendar.jpg" alt="Календарь SORMAT" class="ph-card-img">
+        </div>
+        <div class="ph-card-body">
+          <span class="ph-tag">Мои съёмки, экспертиза</span>
+          <h3 class="ph-title">Календарь бренда SORMAT со Стивеном Сигалом</h3>
+          <p class="ph-desc">Корпоративный календарь на 2025 год с участием популярного голливудского актёра и амбассадора бренда.</p>
+        </div>
+      </article>
+
+      <!-- Карточки Амалия -->
+      <article class="ph-card">
+        <div class="ph-card-img-wrapper">
+          <img src="amalia_paparazzi.jpg" alt="Фотосессия Амалия" class="ph-card-img">
+        </div>
+        <div class="ph-card-body">
+          <span class="ph-tag">Мои съёмки</span>
+          <h3 class="ph-title">Фотосессия в стиле папарацци. Амалия</h3>
+          <p class="ph-desc">Серия кадров в репортажном стиле.</p>
+        </div>
+      </article>
+      <article class="ph-card">
+        <div class="ph-card-img-wrapper">
+          <img src="amalia_paparazzi.jpg" alt="Фотосессия Амалия" class="ph-card-img">
+        </div>
+        <div class="ph-card-body">
+          <span class="ph-tag">Мои съёмки</span>
+          <h3 class="ph-title">Фотосессия в стиле папарацци. Амалия</h3>
+          <p class="ph-desc">Серия кадров в репортажном стиле.</p>
+        </div>
+      </article>
+      <article class="ph-card">
+        <div class="ph-card-img-wrapper">
+          <img src="amalia_paparazzi.jpg" alt="Фотосессия Амалия" class="ph-card-img">
+        </div>
+        <div class="ph-card-body">
+          <span class="ph-tag">Мои съёмки</span>
+          <h3 class="ph-title">Фотосессия в стиле папарацци. Амалия</h3>
+          <p class="ph-desc">Серия кадров в репортажном стиле.</p>
+        </div>
+      </article>
+      <article class="ph-card">
+        <div class="ph-card-img-wrapper">
+          <img src="amalia_paparazzi.jpg" alt="Фотосессия Амалия" class="ph-card-img">
+        </div>
+        <div class="ph-card-body">
+          <span class="ph-tag">Мои съёмки</span>
+          <h3 class="ph-title">Фотосессия в стиле папарацци. Амалия</h3>
+          <p class="ph-desc">Серия кадров в репортажном стиле.</p>
+        </div>
+      </article>
+      <article class="ph-card">
+        <div class="ph-card-img-wrapper">
+          <img src="amalia_paparazzi.jpg" alt="Фотосессия Амалия" class="ph-card-img">
+        </div>
+        <div class="ph-card-body">
+          <span class="ph-tag">Мои съёмки</span>
+          <h3 class="ph-title">Фотосессия в стиле папарацци. Амалия</h3>
+          <p class="ph-desc">Серия кадров в репортажном стиле.</p>
+        </div>
+      </article>
+      <article class="ph-card">
+        <div class="ph-card-img-wrapper">
+          <img src="amalia_paparazzi.jpg" alt="Фотосессия Амалия" class="ph-card-img">
+        </div>
+        <div class="ph-card-body">
+          <span class="ph-tag">Мои съёмки</span>
+          <h3 class="ph-title">Фотосессия в стиле папарацци. Амалия</h3>
+          <p class="ph-desc">Серия кадров в репортажном стиле.</p>
+        </div>
+      </article>
+      <article class="ph-card">
+        <div class="ph-card-img-wrapper">
+          <img src="amalia_paparazzi.jpg" alt="Фотосессия Амалия" class="ph-card-img">
+        </div>
+        <div class="ph-card-body">
+          <span class="ph-tag">Мои съёмки</span>
+          <h3 class="ph-title">Фотосессия в стиле папарацци. Амалия</h3>
+          <p class="ph-desc">Серия кадров в репортажном стиле.</p>
+        </div>
+      </article>
+      <article class="ph-card">
+        <div class="ph-card-img-wrapper">
+          <img src="amalia_paparazzi.jpg" alt="Фотосессия Амалия" class="ph-card-img">
+        </div>
+        <div class="ph-card-body">
+          <span class="ph-tag">Мои съёмки</span>
+          <h3 class="ph-title">Фотосессия в стиле папарацци. Амалия</h3>
+          <p class="ph-desc">Серия кадров в репортажном стиле.</p>
+        </div>
+      </article>
+      <article class="ph-card">
+        <div class="ph-card-img-wrapper">
+          <img src="amalia_paparazzi.jpg" alt="Фотосессия Амалия" class="ph-card-img">
+        </div>
+        <div class="ph-card-body">
+          <span class="ph-tag">Мои съёмки</span>
+          <h3 class="ph-title">Фотосессия в стиле папарацци. Амалия</h3>
+          <p class="ph-desc">Серия кадров в репортажном стиле.</p>
+        </div>
+      </article>
+      <article class="ph-card">
+        <div class="ph-card-img-wrapper">
+          <img src="amalia_paparazzi.jpg" alt="Фотосессия Амалия" class="ph-card-img">
+        </div>
+        <div class="ph-card-body">
+          <span class="ph-tag">Мои съёмки</span>
+          <h3 class="ph-title">Фотосессия в стиле папарацци. Амалия</h3>
+          <p class="ph-desc">Серия кадров в репортажном стиле.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- НОВЫЙ БЛОК СТАТИСТИКИ -->
+  <section class="portfolio-and-stats">
+    <div class="stats-wrapper">
+      <h2 class="stats-title">ФОТОГРАФ</h2>
+      <p class="stats-desc">ОЗНАКОМИТЕЛЬНЫЕ СВЕДЕНИЯ И ДОСТИЖЕНИЯ ЗА БОЛЕЕ ЧЕМ 10 ЛЕТ ПРОФЕССИОНАЛЬНОЙ КАРЬЕРЫ.</p>
+      
+      <div class="stats-list">
+        <div class="stat-item">
+          <span class="stat-number">26</span>
+          <span class="stat-label">рекламных кампаний</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">500+</span>
+          <span class="stat-label">коммерческих съёмок</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">29</span>
+          <span class="stat-label">публикаций в журналах</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">7</span>
+          <span class="stat-label">проектов за рубежом</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">35+</span>
+          <span class="stat-label">съёмок со знаменитостями</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">5</span>
+          <span class="stat-label">побед в конкурсах</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- НОВЫЙ БЛОК "ОБО МНЕ" (Вставлен сюда) -->
+  <section id="about" class="about-section">
+    <div class="about-container">
+      <div class="about-photo-wrapper">
+        <!-- ЗАМЕНИ photo.jpg НА ИМЯ ТВОЕГО ФАЙЛА С ФОТО -->
+        <img src="9.jpg" alt="Фото Любови Чернициной" class="about-photo">
+      </div>
+      <div class="about-text-wrapper">
+        <h2 class="about-title">Обо мне</h2>
+        <p class="about-desc">
+          Работаю в сфере дизайна, специализируюсь на лендингах и портфолио. Люблю чистые интерфейсы и понятную структуру.
+        </p>
+        <p class="about-desc">
+          В работе использую Figma, HTML/CSS, основы JavaScript. Стремлюсь делать сайты, которые удобно использовать и приятно смотреть.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="clients-section">
+  <h2 class="clients-title">КЛИЕНТЫ</h2>
+  <p class="clients-desc">
+    МНЕ ДОВЕРЯЮТ МИРОВЫЕ БРЕНДЫ И ЛИДЕРЫ РЫНКА. ПРИ ЭТОМ Я ВСЕГДА ОТКРЫТ К СОТРУДНИЧЕСТВУ С МОЛОДЫМИ И АМБИЦИОЗНЫМИ КОМПАНИЯМИ.
+  </p>
+  <div class="clients-grid">
+    <img src="10.jpg" alt="Canon" class="client-logo">
+    <img src="10.jpg" alt="Pepsi" class="client-logo">
+    <img src="10.jpg" alt="Hyundai" class="client-logo">
+    <img src="10.jpg" alt="LVMH" class="client-logo">
+    <img src="10.jpg" alt="BBDO" class="client-logo">
+    <img src="10.jpg" alt="Mercury" class="client-logo">
+    <img src="10.jpg" alt="Volvo" class="client-logo">
+    <img src="10.jpg" alt="Johnson & Johnson" class="client-logo">
+    <img src="10.jpg" alt="Mars" class="client-logo">
+    <img src="10.jpg" alt="Dyson" class="client-logo">
+    <img src="10.jpg" alt="Dyson" class="client-logo">
+    <img src="10.jpg" alt="Dyson" class="client-logo">
+    
+  </div>
+</section>
+  
+
+  <script src="index.js"></script>
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.main-nav');
+
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+
+    document.querySelectorAll('.nav-list a').forEach(n => n.addEventListener('click', () => {
+      navMenu.classList.remove('active');
+    }));
+  </script>
+  <script>
+    function goTo(targetId) {
+      document.querySelector(targetId).scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
